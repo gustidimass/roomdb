@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">roomdb</string>
+    <string name="add">add</string>
 </resources>
