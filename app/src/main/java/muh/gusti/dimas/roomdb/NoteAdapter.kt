@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import muh.gusti.dimas.roomdb.R
 import muh.gusti.dimas.roomdb.Note
-import kotlinx.android.synthetic.main.item_note.view.*
+import kotlinx.android.synthetic.main.item_notes.view.*
 
 class NoteAdapter(private val context: Context?, private val listener: (Note, Int) -> Unit) :
     RecyclerView.Adapter<NoteViewHolder>() {
@@ -17,7 +17,7 @@ class NoteAdapter(private val context: Context?, private val listener: (Note, In
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteViewHolder {
         return NoteViewHolder(
             LayoutInflater.from(parent.context).inflate(
-                R.layout.item_note,
+                R.layout.item_notes,
                 parent,
                 false
             )
